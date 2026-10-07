@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Şok haber: Barbie oyuncakçısı açıldı</title>
+  <style>
+    :root {
+      --bg: #fff7fa;
+      --ink: #2a1a22;
+      --muted: #8a6575;
+      --accent: #e0307a;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #1d1218;
+        --ink: #f8e8ef;
+        --muted: #b793a4;
+        --accent: #ff6aa8;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+      line-height: 1.7;
+      padding: 48px 20px 80px;
+    }
+    main {
+      max-width: 680px;
+      margin: 0 auto;
+    }
+    h1 {
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      line-height: 1.1;
+      margin: 0 0 12px;
+      border-left: 6px solid var(--accent);
+      padding-left: 16px;
+    }
+    .byline {
+      color: var(--muted);
+      font-family: system-ui, sans-serif;
+      font-size: 0.95rem;
+      margin: 0 0 28px;
+    }
+    p { font-size: 1.15rem; margin: 0 0 24px; }
+    figure { margin: 0; }
+    img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    figcaption {
+      color: var(--muted);
+      font-family: system-ui, sans-serif;
+      font-size: 0.9rem;
+      margin-top: 8px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article>
+      <!-- BAŞLIK -->
+      <h1>Şok haber: Barbie oyuncakçısı açıldı</h1>
+
+      <!-- YAZAR -->
+      <p class="byline">Yazan: Dönerciler</p>
+
+      <!-- METİN -->
+      <p>Amasra'da Barbie oyuncakçısı açıldı. İlk oyuncağımız olan Barbaros bu fotoğrafla tarihe geçti.</p>
+
+      <!-- FOTOĞRAF: oyun1.png, yap.html ile aynı klasörde olmalı -->
+      <figure>
+        <img src="oyun1.png" alt="Pembe Barbie kutusunun içinde, pembe ceket ve pantolon giymiş gülümseyen genç oyuncak Barbaros">
+      </figure>
+    </article>
+  </main>
+</body>
+</html>
